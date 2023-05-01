@@ -1,0 +1,34 @@
+INDEX
+-APP
+--HEADER
+---PROFILE
+---CURRENCYBAR
+----LBUCKS
+----PKEYS
+----LOOTBOXES
+---STORE
+----WEEKLYROTATION?
+----DEALS
+----STOCK
+----LBUCKS
+--SWITCH
+---LOGINPAGE
+---SIGNUPPAGE
+--LOGGEDINUSERS
+
+FLOW
+-> Enter company name
+--> company "owns" data
+--> users { username: password }
+--> userData { username: { keys, lbucks, lootboxes, unlockedCharacters, username } }
+-> SIGN UP USER
+--> can add user to company registry
+-> LOG IN WITH USER
+--> can log in with any company owned user
+-> PROFILE
+--> can update company profile
+-> STORE
+--> can purchase assets to be owned by company
+-> LOGGED IN USERS
+--> EDIT USER
+--> LOG OUT WITH USER

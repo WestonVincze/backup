@@ -1,0 +1,45 @@
+html {
+  background-color: #777;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Login */
+.Login {
+  padding: 40px 20px;
+  background-color: #fefefe;
+}
+
+/* InputField */
+.field-row {
+  display: flex;
+  justify-content: center;
+  column-gap: 15px;
+}
+
+/* LoggedInUsers */
+.loggedInUsers {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* UserData */
+.userData {
+  display: flex;
+  justify-content: center;
+  column-gap: 15px;
+}
+
+/* Store */
+.storeItemContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* StoreItem */
+.itemName {
+  font-size: 50px;
+}
